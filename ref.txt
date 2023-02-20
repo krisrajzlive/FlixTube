@@ -1,0 +1,25 @@
+export STORAGE_ACCOUNT_NAME=bsmicroservice
+export STORAGE_ACCESS_KEY=MKRBfRci5v5NZadmCnHH70cPDHJMe9GkjORRSks0v2ovmk7Iip31v+DIFizoFgW3GcQxO1Qg9g6F+ASt1uV19g==
+
+remove all containers
+docker rm -vf $(docker ps -a)
+
+remove all images
+docker rmi -f $(docker images -a)
+
+docker system prune
+docker system prune -a
+
+docker compose up --build
+docker compose ps
+docker compose stop
+docker compose down -stops and destroys the application, which leaves the development workstation in a clean state
+
+https://docs.docker.com/compose/
+https://docs.docker.com/compose/compose-file/
+https://docs.docker.com/compose/reference/
+
+https://github.com/bootstrapping-microservices-2nd-edition/
+http://localhost:4002/video?id=5d9e690ad76fe06a3d7ae416
+
+git clone https://github.com/bootstrapping-microservices-2nd-edition/chapter-5

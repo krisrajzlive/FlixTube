@@ -1,6 +1,8 @@
 # Example-1
 
-Example number 1 from Chapter 2 of [Bootstrapping Microservices](https://www.bootstrapping-microservices.com).
+Example number 1 from Chapter 3 of [Bootstrapping Microservices](https://www.bootstrapping-microservices.com).
+
+Chapter 3 of Bootstrapping Microservices gives instructions on how to package and publish this example using Docker and a private Docker registry.
 
 You need Node.js installed to run this.
 
@@ -16,4 +18,4 @@ Or
 
     npm start
 
-Then point your browser at http://localhost:3000
+Then point your browser at http://localhost:3000/video

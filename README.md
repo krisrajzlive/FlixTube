@@ -1,8 +1,8 @@
-# Chapter-2
+# Chapter-4
 
-Code and examples for Chapter 2 of [Bootstrapping Microservices](https://www.bootstrapping-microservices.com).
+Code and examples for Chapter 4 of [Bootstrapping Microservices](https://www.bootstrapping-microservices.com).
 
-In chapter 2 you build your first microservice using Node.js.
+In chapter 4 you learn to develop and test a microservices application using Docker-Compose.
 
 Please see README in each sub-directory for instructions on starting the particular example.
 

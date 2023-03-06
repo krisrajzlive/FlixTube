@@ -13,7 +13,9 @@ docker system prune -a
 docker compose up --build
 docker compose ps
 docker compose stop
-docker compose down -stops and destroys the application, which leaves the development workstation in a clean state
+docker compose down -----stops and destroys the application, which leaves the development workstation in a clean state
+docker compose restart history -----to start a particular container
+docker compose -f docker-compose-prod.yml up -----build --to specify a particular docker compose file
 
 https://docs.docker.com/compose/
 https://docs.docker.com/compose/compose-file/

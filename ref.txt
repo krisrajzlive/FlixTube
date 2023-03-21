@@ -22,3 +22,12 @@ https://github.com/bootstrapping-microservices-2nd-edition/
 http://localhost:4002/video?id=5d9e690ad76fe06a3d7ae416
 
 git clone https://github.com/bootstrapping-microservices-2nd-edition/chapter-5
+
+az login --tenant d28f0ba1-3932-4a3c-bfd0-455ff511aa5a
+
+az aks get-versions --location eastus
+
+az aks get-versions --location eastus --output table
+1.25.5
+
+docker login docker login flixtubekrisrajz.azurecr.io -u=flixtubekrisrajz -p=***
